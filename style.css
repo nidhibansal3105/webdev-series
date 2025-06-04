@@ -70,7 +70,7 @@ a:hover{
 
 .sections a:hover{
     border-bottom : 2px solid white;
-    padding : 15px;
+    padding-bottom : 15px;
 }
 
 .search {

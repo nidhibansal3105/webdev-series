@@ -1,0 +1,97 @@
+pwd--> present working directory 
+whoami ---> current username
+date ---> printing present date time in format {day month date time(H:M:S) AM/PM UTC year
+	if we want specific things : date +%D (for date)
+				     date +%H:%D (for time)
+cal ---> print the calender of current month
+	cal MONTH year ---> cal of that month in that year
+	cal year ---> cal of that year
+
+ls ---> listing the files and folders of current directory
+	ls -lt : list of files on time basis
+	ls -lh : list of files in readable form
+	ls -ltr : list of files in reverse time order
+
+** to directory --> '-'  to folder/directory --> 'd'
+
+cat <file name> --->  printing the data of current file
+less <file name> ---> opens up the file in new editor then you can search your word : top to bottom : to begin search : '/<word_To_search>
+												      press 'N' to go to the next search
+										      bottom to top : shift + 'G' to come to the end of the page
+												      to begin search : '?<word_To_search>
+												      press 'N' to go to the next search
+more <file name> ---> reading page-by-page
+
+** press 'Q' for quitting
+
+touch <file name> ---> create new file
+rm <file name> ---> remove the file
+vi <file name> ---> crestes as well as open up the file in new editor to write it.
+		    press 'esc' to exit
+		    shift + ':' then 'wq'
+nano <file name> ---> write in a file
+
+mkdir <folder name> ---> making a new folder
+rmdir <folder name> ---> removing a new folder
+rm-rf <folder name> ---> removing a new folder
+
+cd .. ---> goes one flolder back
+cd folder/ ---> direct to this folder
+cd folder1/folder2/folder3 ---> multiple folders in one go
+cp <file name> dest/path ---> copying the file to the destination path
+cp fileA fileB ---> copying the fileA to fileB
+cp ../file . ---> go to previous folder then copy file from that folder to preset directory
+mv <file> dest/path ---> move this file to destination
+mv fileA fileB ---> rename the fileA
+head -<no_of_lines> <file name> ---> give given no. of lines from top
+tail -<no_of_lines> <file name> ---> give bottom lines
+sort <filename> ---> sort the content of file
+sort -r <filename> ---> sort in reverse order
+|uniq ---> remove the duplicate content from the o/p of the previous command
+split -<no. of lines per file> <file_to_be_splitted> ---> split the file in different files based on given no.of lines
+
+grep "word" <file> ---> give the results afte finding the given word in the file
+egreo "word1|word2" <file> ---> finding multiple words in the doccument
+
+** ls *.extention -----> give files with given extention
+   touch file{1..10} ----> make ten files
+   
+
+suf <file> ---> suffle the content of file
+wc -l <file> ---> 
+cmp fileA fileB ---> give whether these file are identical or not
+diff -u fileA fileB ---> print the diff between these files
+
+history ---> gives the history of commads previously used
+bc ---> opens up the binary calculator
+echo "hello" ---> print hello in terminal
+alias l="command" ---> create alias for this command
+
+find ./ -name <file> ---> find the file in present directory 
+sudo updatedb ---> update the database
+locate <file> ---> locate the file in linux database
+
+gzip -k <file> ---> zip the file and make a compressed version
+gunzip <file> ---> make an unzipped copy of sourse file     
+gzip -d <file> ---> make the make an unzipped copy of sourse file
+
+tar -czf <name_to_be_given> <folder> ---> zip the folder into a file
+tar -xzf <file> ---> decompress the folder
+
+zip <name_of_zipped_file> fileA fileB ---> zipp the both files in the given file
+unzip <file_name> ---> unzip the files it contains
+unzip -l <file> ---> provide the list of the component file of the given file
+
+wget url_of_file ---> download the file
+wget -o opt_file.txt URL ---> download the given file and save the file with this name
+curl url ---> calls an API on the OS
+
+apt or yum/dnf ---> to download any application(sudo yum install app_name)  
+...
+
+system list-units --type=service --all ---> list all the services on your os
+
+
+	
+
+	

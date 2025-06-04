@@ -68,6 +68,11 @@ a:hover{
     font-size: 1.2rem;
 }
 
+.sections a{
+    border-bottom : 2px solid white;
+    padding : 15px;
+}
+
 .search {
     display: flex;
     align-items: center;

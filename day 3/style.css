@@ -1,0 +1,652 @@
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.main_page{
+    background: black;
+    height: 42.99rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 6rem;
+}
+
+.logo {
+    background-image: url(pics2/logo.jpg);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+
+
+.left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    padding-left: 5rem;
+}
+
+.right {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.icon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.sections a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+}
+
+.sections a:hover{
+    color:#36b6ba;
+}
+
+.right button {
+    width: 6rem;
+    height: 2rem;
+    background-color: #3DCFD3;
+    border: none;
+    font-weight: 600;
+}
+
+.right button:hover{
+    border: 2px solid #3DCFD3;
+    background:transparent;
+    color:#36b6ba;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem;
+}
+
+.photo {
+    background-image: url(pics2/img.jpg);
+    background-size: cover;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    margin-right: 3rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.name {
+    color: #36b6ba;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.profession {
+    color: #ffffff;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.profession p {
+    color: #36b6ba;
+}
+
+.lines {
+    color: #c7c4c4;
+    font-size: 0.9rem;
+    margin-bottom: 3rem;
+}
+
+.download_cv button {
+    background: transparent;
+    color: #36b6ba;
+    border: 2px solid #36b6ba;
+    padding: 0.7rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.download_cv button:hover {
+    background: #36b6ba;
+    color: black;
+}
+
+#about{
+    color: black;
+}
+
+#about .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42.9rem;
+    width: 100%;
+    justify-content: space-between;
+    padding : 4rem;
+}
+
+#about .pic{
+    background-image: url(pics2/download.png);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 30rem;
+    width: 24rem;
+    margin-right: 2rem;
+}
+
+#about .about_content{
+    width: 60%;
+}
+
+#about .about_content span{
+    color:#36b6ba;
+}
+
+#about .about_content p{
+    color: #817e7e;
+    margin-top:3rem;
+    margin-bottom:2rem;
+}
+#about .icons{
+    display: flex;
+    width: 15rem;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+#about .icons .ic1{
+    color: #ffffff;
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+}
+
+#about .icons .ic1:hover{
+    color: black;
+    background:#3DCFD3;
+    transform : scale(1.1);
+}
+
+#about .icons .ic2{
+    color: #ffffff;
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+}
+
+#about .icons .ic2:hover{
+    color: black;
+    background:#3DCFD3;
+    transform : scale(1.1);
+}
+
+#about .icons .ic3{
+    color: #ffffff;
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+}
+
+#about .icons .ic3:hover{
+    color: black;
+    background:#3DCFD3;
+    transform : scale(1.1);
+}
+
+#about .icons .ic4{
+    color: #ffffff;
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+}
+
+#about .icons .ic4:hover{
+    color: black;
+    background:#3DCFD3;
+    transform : scale(1.1);
+}
+
+#projects{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+#projects .heading{
+    text-align: center;
+}
+
+#projects p{
+    color: #817e7e;
+}
+
+#projects span{
+    color:#3DCFD3;
+}
+
+#projects .cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin:4rem;
+}
+
+#projects .cards h2{
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+#projects .cards .card1{
+    height: 25rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border : 2px solid #3DCFD3;
+    padding: 2rem;
+    margin:2rem;
+}
+
+#projects .cards .card1:hover{
+    background: #3dced32f;
+}
+
+#projects .cards .card2{
+    height: 25rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border : 2px solid #3DCFD3;
+    padding: 2rem;
+    margin:2rem;
+}
+
+#projects .cards .card2:hover{
+    background: #3dced32f;
+}
+
+#projects .cards .card3{
+    height: 25rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border : 2px solid #3DCFD3;
+    padding: 2rem;
+    margin:2rem;
+}
+
+#projects .cards .card3:hover{
+    background: #3dced32f;
+}
+
+#contact{
+    color : black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+#contact .heading{
+    text-align: center;
+}
+
+#contact .heading span{
+    color:#36b6ba;
+}
+
+#contact .heading p{
+    color: #817e7e;
+    font-size: 0.9rem;
+}
+
+#contact .cont_option{
+    display: flex;
+    width : 100%;
+    justify-content: space-around;
+    margin-top:3rem;
+}
+#contact .cont_option p{
+    color:#817e7e;
+}
+
+#contact .cont_option h1{
+    font-weight: 400;
+}
+
+#contact .cont_option .cicon{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+#contact .cont_option .card1{
+    text-align:center;
+    margin-bottom: 3rem;
+}
+
+#contact .cont_option .card2{
+    text-align:center;
+    margin-bottom: 3rem;
+}
+
+#contact .cont_option .card3{
+    text-align:center;
+    margin-bottom: 3rem;
+}
+
+#contact .data{
+    width: 100%;
+    padding: 2rem;
+}
+
+#contact .data .name_email input{
+    width: 100%;
+    height: 2rem;
+    padding-left: 0.7rem;
+    border: 1px solid #817e7e29;
+    margin-bottom: 2rem;
+}
+
+#contact .data input::placeholder{
+    color: #817e7e;
+}
+
+/* #contact .data .name_email #name{
+    margin-right: 2rem;
+} */
+
+#contact .data .subject input{
+    height: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 0.7rem;
+    border: 1px solid #817e7e29;
+    width: 100%;
+}
+
+#contact .data .message_box input{
+    height: 10rem;
+    padding-left: 0.7rem;
+    border: 1px solid #817e7e7b;
+    border: 1px solid #817e7e29;
+    width: 100%;
+    display:flex;
+    justify-content: flex-start;
+}
+
+#contact button{
+    background: #3DCFD3;
+    color:black;
+    border: none;
+    height : 3rem;
+    width: 9rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+#contact .fill{
+    background: black;
+    height: 4rem;
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    
+
+    body{
+        font-size: small;
+    }
+    .main_page{
+        height: auto;
+    }
+    nav{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo{
+        height:20px;
+        width:20px;
+        background-size: cover;
+    }
+    .left{
+        margin:0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        padding-left: 1.5rem;
+        height: 6rem;
+        /* text-align: left; */
+    }
+
+    .info .name{
+        font-size: large;
+    }
+
+    .info .profession{
+        font-size: 2rem;
+    }
+
+    .info .lines{
+        font-size: 0.8rem;
+    }
+    .icon{
+        font-size: 1rem;
+    }
+    .right{
+        justify-content: flex-start;
+        padding-left: 1.5rem;
+    }
+
+    .right button{
+        font-size: 0.7rem;
+        width: 4rem;
+        height: 1.5rem;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .download_cv{
+        margin-bottom: 2rem;
+    }
+
+    #projects .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #projects .cards .card1{
+        width: 27rem;
+        height: 15rem;
+    }
+
+    #projects .cards .card2{
+        width: 27rem;
+        height: 15rem;
+    }
+
+    #projects .cards .card3{
+        width: 27rem;
+        height: 15rem;
+    }
+
+    #about .container{
+        flex-direction: column;
+    }
+
+    #about .container .about_content{
+        text-align: left;
+        width: 100%;
+    }
+
+    #about .pic{
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left:7rem;
+        margin-bottom:3rem;
+    }
+    #about .icons{
+        font-size: medium;
+    }
+
+    #contact .info_ h1{
+        font-size: medium;
+    }
+    #contact .info_ p{
+        font-size: small;
+    }
+    #contact .cont_option .cicon{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 500px){
+
+    body {
+        font-size: 0.6rem;
+    }
+    .info .photo{
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 1rem;
+    }
+
+    .info .lines{
+        font-size: 0.6rem;
+    }
+
+    .info .download_cv button{
+        font-size: 0.6rem;
+        width: 7rem;
+        height: 2rem;
+    }
+    #projects h2,h1{
+        font-size: 1rem;
+    }
+
+    #projects p{
+        font-size: 0.7rem;
+    }
+
+    #projects .cards .card1{
+        width: 15rem;
+        height: 12rem;
+    }
+
+    #projects .cards .card2{
+        width: 15rem;
+        height: 12rem;
+    }
+
+    #projects .cards .card3{
+        width: 15rem;
+        height: 12rem;
+    }
+
+    #contact .heading p{
+        font-size: 0.6rem;
+    }
+    
+    #contact .cont_option{
+        flex-direction: column;
+    }
+    
+    #contact .cont_option .info_ h1{
+        font-size: 1rem;
+    }
+    #contact .cont_option .cicon{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    #contact .cont_option .info_ p{
+        font-size: 0.6rem;
+    }
+
+    #contact button{
+        font-size: 0.5rem;
+        width: 6rem;
+        height: 1.5rem;
+    }
+}

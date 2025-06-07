@@ -741,9 +741,15 @@ li{
     #footer_right .ic{
         font-size: 1.2rem;
     }
+    .products, .Card_sorting, .Resources{
+        text-align: center;
+    }
 }
 
 @media (max-width: 520px){
+    .footer{
+        flex-direction: column;
+    }
     #card{
         flex-direction: row;
     }
@@ -759,8 +765,8 @@ li{
 }
 
 @media (max-width: 450px){
-    .footer{
-        flex-direction: column;
+    #footer_left{
+        padding-left: 3rem;
     }
     #seventh_page_left h1{
         font-size: 1.3rem;

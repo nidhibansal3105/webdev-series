@@ -1,0 +1,792 @@
+/* #e74694 pink
+#2294ed sky
+#183B56 dark 
+#ebf2fa off white
+#b9cde4 light*/
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.topbar {
+    width: 100%;
+    height: 3rem;
+    background-color: #e74694;
+    background-image: url("https://usabilityclone.vercel.app/images/asset%2032.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.main_page {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main_page_left {
+    width: 14rem;
+    height: 2.7rem;
+    background: url("https://usabilityclone.vercel.app/images/asset%201.png");
+    background-size: contain;
+    margin-right: 5rem;
+}
+
+#main_page_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40rem;
+}
+
+.sign_in button {
+    height: 3rem;
+    width: 6rem;
+    background: transparent;
+    border: 1px solid #2294ed;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.sign_up button {
+    height: 3rem;
+    width: 6rem;
+    background: #2294ed;
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.sections {
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sections a {
+    text-decoration: none;
+    color: black;
+}
+
+#content_top {
+    display: flex;
+    margin: 3rem;
+}
+
+#content_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #183B56;
+    font-size: 1.1rem;
+    padding: 0 0 0 3rem;
+}
+
+#content_left h1 {
+    font-size: 3rem;
+}
+
+#content_left p {
+    margin-top: 2rem;
+
+}
+
+#content_left button {
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    background: #2294ed;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.15rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+#content_right{
+    display: flex;
+    justify-content: center;
+}
+
+#content_right img{
+    width: 100%;
+    height: 100%;
+}
+
+#content_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+#content_bottom p {
+    padding-bottom: 0.5rem;
+}
+
+#content_bottom .image {
+    background-image: url("pics3/brands.png");
+    background-repeat: no-repeat;
+    height: 10rem;
+    width: 100%;
+    background-size: contain;
+    padding-right: 5rem;
+}
+
+.sec_page {
+    display: block;
+    padding: 3rem;
+}
+
+#sec_page_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec_page_header button{
+    height: 3.25rem;
+    width: 11rem;
+    background: transparent;
+    border: 1px solid #2294ed;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+#card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    overflow: visible;
+}
+.card_bottom, .card_top{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+#card h1{
+    color:#183B56;
+    font-size: 1.3rem;
+}
+
+#card p{
+    color:#577592;
+}
+
+#card button{
+    height: 2.5rem;
+    width: 9rem;
+    background: transparent;
+    border: 1px solid #577592;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+#card .card1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin-right: 5rem;
+    margin: 1rem;
+
+}
+#card .card1 .img{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url("https://usabilityclone.vercel.app/images/asset%2011.svg");
+    background-size: contain;
+    margin-bottom: 1rem;
+}
+
+
+#card .card2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin: 1rem;
+}
+#card .card2 .img{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url("https://usabilityclone.vercel.app/images/asset%2013.svg");
+    background-size: contain;
+    margin-bottom: 1rem;
+}
+
+#card .card3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin: 1rem;
+}
+#card .card3 .img{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url("https://usabilityclone.vercel.app/images/asset%2014.svg");
+    background-size: contain;
+    margin-bottom: 1rem;
+}
+
+#card .card4{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    /* margin-right: 5rem; */
+    margin: 1rem;
+}
+#card .card4 .img{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url("https://usabilityclone.vercel.app/images/asset%2015.svg");
+    background-size: contain;
+    margin-bottom: 1rem;
+}
+
+#card .card5{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin: 1rem;
+}
+#card .card5 .img{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url("https://usabilityclone.vercel.app/images/asset%2016.svg");
+    background-size: contain;
+    margin-bottom: 1rem;
+}
+
+#card .card6{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin: 1rem;
+}
+#card .card6 .img{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url("https://usabilityclone.vercel.app/images/asset%2017.svg");
+    background-size: contain;
+    margin-bottom: 1rem;
+}
+
+
+
+.third_page{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    padding-top: 0;
+}
+
+#third_page_left{
+    display: flex;
+    justify-content: center;
+}
+
+#third_page_left img{
+    width: 80%;
+    height: 100%;
+}
+
+#third_page_right p{
+    margin-bottom: 1rem;
+    color:#455564;
+}
+
+#third_page_right h1{
+    margin-bottom: 1rem;
+    color:#183B56;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+#third_page_right img{
+    width: 20rem;
+    height: 15rem;
+}
+
+.fourth_page{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    padding-top: 0;
+}
+#fourth_page_right{
+    display: flex;
+    justify-content: center;
+}
+
+#fourth_page_right img{
+    width: 80%;
+    height: 100%;
+}
+
+#fourth_page_left{
+    padding-right: 3rem;
+}
+
+#fourth_page_left p{
+    margin-bottom: 1rem;
+    color:#455564;
+}
+
+#fourth_page_left h1{
+    margin-bottom: 1rem;
+    color:#183B56;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+#fourth_page_left img{
+    width: 20rem;
+    height: 15rem;
+}
+
+.fifth_page{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    padding-top: 0;
+}
+
+#fifth_page_left{
+    display: flex;
+    justify-content: center;
+}
+
+#fifth_page_left img{
+    width: 80%;
+    height: 100%;
+}
+
+#fifth_page_right p{
+    margin-bottom: 1rem;
+    color:#455564;
+}
+
+#fifth_page_right h1{
+    margin-bottom: 1rem;
+    color:#183B56;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+#fifth_page_right img{
+    width: 20rem;
+    height: 15rem;
+}
+
+.sixth_page{
+    display:flex;
+    flex-direction: column;
+}
+
+#sixth_page_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+
+#sixth_page_header button{
+    height: 3.25rem;
+    width: 11rem;
+    background: transparent;
+    border: 1px solid #2294ed;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+#sixth_page_cards{
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 2rem 0 2rem 0;
+}
+#card1{
+    height: 20rem;
+    width: 16rem;
+    background: url("https://usabilityclone.vercel.app/images/asset%2036.jpeg");
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.419);
+    background-size: cover;
+    display:flex;
+    padding: 2rem;
+    align-items: flex-end;
+    color: white;
+    font-weight: 900;
+}
+
+#card2{
+    height: 20rem;
+    width: 16rem;
+    background: url("https://usabilityclone.vercel.app/images/asset%2037.jpeg");
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.419);
+    background-size: cover;
+    display:flex;
+    padding: 2rem;
+    align-items: flex-end;
+    color: white;
+    font-weight: 900;
+}
+
+#card3{
+    height: 20rem;
+    width: 16rem;
+    background: url("https://usabilityclone.vercel.app/images/asset%2038.jpeg");
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.419);
+    background-size: cover;
+    display:flex;
+    padding: 2rem;
+    align-items: flex-end;
+    color: white;
+    font-weight: 900;
+}
+
+#card4{
+    height: 20rem;
+    width: 16rem;
+    background: url("https://usabilityclone.vercel.app/images/asset%2039.jpeg");
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.419);
+    background-size: cover;
+    display:flex;
+    padding: 2rem;
+    align-items: flex-end;
+    color: white;
+    font-weight: 900;
+}
+
+.seventh_page{
+    display: flex;
+    justify-content: center;
+    background: #183B56;
+    color: white;
+    padding: 3rem;
+}
+
+.grids{
+    display:flex;
+    justify-content: space-evenly;
+    color: #b9cde4;
+}
+
+.left_list{
+    margin-right: 3rem;
+}
+
+#seventh_page_right{
+    display: flex;
+    justify-content: center;
+}
+
+#seventh_page_right img{
+    width: 80%;
+    height: 100%;
+}
+
+#seventh_page_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    padding-right: 0;
+    margin-left: 3rem;
+}
+
+#seventh_page_left p{
+    margin-bottom: 1rem;
+    color:#b9cde4;
+}
+
+#seventh_page_left h1{
+    margin-bottom: 1rem;
+    color:white;
+    font-weight: 800;
+}
+
+#seventh_page_left h2{
+    margin-bottom: 1rem;
+    color:white;
+    font-weight: 800;
+}
+
+#seventh_page_buttons{
+    color: #b9cde4;
+}
+
+#seventh_page_buttons button{
+    width: 15rem;
+    height: 3rem;
+    color: white;
+    background: #2294ed;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.15rem;
+    margin-top: 2rem;
+    /* margin-bottom: 3rem; */
+}
+
+#learn button {
+    height: 3rem;
+    width: 9rem;
+    color:#b9cde4;
+    background: transparent;
+    border: 1px solid #b9cde4;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.eight_page{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13.1rem;
+    color:#183B56;
+}
+.eight_page p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color:#1b3a56;
+}
+
+.eight_page button{
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    background: #2294ed;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.15rem;
+    margin-bottom: 4.6rem;
+}
+
+#bold{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.ninth_page{
+    background-color: #ebf2fa;;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4.6rem;
+    color: #183B56;
+}
+
+.ninth_page img{
+    width: 12rem;
+    height: 2.5rem;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.Card_sorting{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.Resources{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+li{
+    font-weight: 500;
+    margin: 0.7rem;
+}
+
+.footer{
+    background:#b9cde4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    color: #577592;
+}
+#footer_left{
+    display: flex;
+    color: #1e2935;
+    font-size: 0.8rem;
+}
+#footer_left p{
+    margin: 1rem;
+}
+#footer_right{
+    display: flex;
+}
+
+#footer_right .ic{
+    font-size: 1.7rem;
+    margin-right: 2rem;
+}
+
+.nav_toggle{
+    display : none;
+}
+
+
+@media (max-width: 990px){
+    .nav_toggle{
+        display: inline-block;
+        margin-right: 1rem;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    #main_page_right{
+        display: none;
+    }
+}
+
+@media (max-width: 840px){
+    .third_page, .fifth_page{
+        flex-direction: column;
+    }
+
+    .fourth_page, .seventh_page,.content #content_top{
+        flex-direction: column-reverse;
+    }
+
+    #content_right{
+        padding: 2rem;
+    }
+
+    #seventh_page_left{
+        padding: 0;
+    }
+}
+
+@media (max-width: 570px){
+    .ninth_page{
+        flex-direction: column;
+        align-items: center;
+    }
+    p, li{
+        font-size: 0.8rem;
+    }
+    .sec_page #card h1{
+        font-size: 1rem;
+    }
+    #content_left{
+        padding: 0;
+    }
+
+    #content_left h1{
+        font-size: 2rem;
+    }
+    .topbar{
+        font-size: 0.7rem;
+    }
+    #content_bottom{
+        display: none;
+    }
+    .sec_page{
+        padding-top: 0;
+    }
+    #footer_right .ic{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 520px){
+    #card{
+        flex-direction: row;
+    }
+    .card_bottom, .card_top{
+        flex-direction: column;
+    }
+    #sec_page_header{
+        text-align: center;
+    }
+    #sixth_page_header{
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px){
+    .footer{
+        flex-direction: column;
+    }
+    #seventh_page_left h1{
+        font-size: 1.3rem;
+    }
+    #seventh_page_left h2{
+        font-size: 1.1rem;
+    }
+    #seventh_page_buttons button {
+        font-size: 0.9rem;
+        width: 12rem;
+    }
+    #third_page_right img{
+        width: 16rem;
+        height: 12rem;
+    }
+    #fourth_page_left img{
+        width: 16rem;
+        height: 12rem;
+    }
+    #fifth_page_right img{
+        width: 16rem;
+        height: 12rem;
+    }
+    #main_page_left{
+        width: 11rem;
+        height: 2rem;
+        margin-left: 0.8rem;
+    }
+}

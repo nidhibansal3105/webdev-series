@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="screen"></div>
+            <div class="buttons">
+                <div class="but1_set">
+                    <button onclick="
+                        currentText = '';
+                        document.querySelector('.screen').innerText = currentText;">AC</button>
+                    <button onclick="
+                        currentText += '1';
+                        document.querySelector('.screen').innerText = currentText;">1</button>
+                    <button onclick="
+                        currentText += '2';
+                        document.querySelector('.screen').innerText = currentText;">2</button>
+                </div>
+                <div class="but2_set">
+                    <button onclick="
+                        currentText += '+';
+                        document.querySelector('.screen').innerText = currentText;">+</button>
+                    <button onclick="
+                        currentText += '3';
+                        document.querySelector('.screen').innerText = currentText;">3</button>
+                    <button onclick="
+                        currentText += '4';
+                        document.querySelector('.screen').innerText = currentText;">4</button>
+                </div>
+                <div class="but3_set">
+                    <button onclick="
+                        currentText += '-';
+                        document.querySelector('.screen').innerText = currentText;">-</button>
+                    <button onclick="
+                        currentText += '5';
+                        document.querySelector('.screen').innerText = currentText;">5</button>
+                    <button onclick="
+                        currentText += '6';
+                        document.querySelector('.screen').innerText = currentText;">6</button>
+                </div>
+                <div class="but4_set">
+                    <button onclick="
+                        currentText += '*';
+                        document.querySelector('.screen').innerText = currentText;">*</button>
+                    <button onclick="
+                        currentText += '7';
+                        document.querySelector('.screen').innerText = currentText;">7</button>
+                    <button onclick="
+                        currentText += '8';
+                        document.querySelector('.screen').innerText = currentText;">8</button>
+                </div>
+                <div class="but5_set">
+                    <button onclick="
+                        currentText += '/';
+                        document.querySelector('.screen').innerText = currentText;">/</button>
+                    <button onclick="
+                        currentText += '9';
+                        document.querySelector('.screen').innerText = currentText;">9</button>
+                    <button onclick="
+                        currentText += '0';
+                        document.querySelector('.screen').innerText = currentText;">0</button>
+                </div>
+                <div class="but6_set">
+                    <button onclick="
+                        currentText += '.';
+                        document.querySelector('.screen').innerText = currentText;">.</button>
+                    <button onclick="
+                        currentText = eval(currentText);
+                        document.querySelector('.screen').innerText = currentText;">=</button>
+                    <button onclick="
+                        currentText = currentText.substring(0,currentText.length-1);
+                        document.querySelector('.screen').innerText = currentText;">C</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        let currentText = "";
+        document.querySelector('.screen').innerText = currentText;
+    </script>
+</body>
+
+</html>

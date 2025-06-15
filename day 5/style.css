@@ -1,0 +1,156 @@
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+#bold{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+nav{
+    display: flex;
+    background-color: #131921;
+    color: white;
+    font-size: 0.7rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.address, .shop-cart,.search-bar{
+    display: flex;
+    align-items: center;
+}
+
+.loc_icon, .cart-icon{
+    margin-right: 0.8rem;
+    font-size: 1.3rem;
+}
+
+.logo img{
+    width: 7rem;
+    height: 4rem;
+}
+
+.nav-sec{
+    background-color: #222f3e;
+}
+
+select{
+    height: 2.5rem;
+    width: 3rem;
+    border: none;
+    border-top-left-radius: 12%;
+    border-bottom-left-radius: 12%;
+    text-align: center;
+}
+
+input{
+    height: 2.5rem;
+    width: 28rem;
+}
+
+.search-icon{
+    height: 2.5rem;
+    width: 3rem;
+    background-color: #febd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
+    border-top-right-radius: 12%;
+    border-bottom-right-radius: 12%;
+}
+
+.nav-sec{
+    display: flex;
+}
+
+.All{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.8rem;
+    margin-right: 1.8rem;
+}
+
+.all-icon{
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+
+.panel-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.panel-options p{
+    margin-right : 1.8rem;
+}
+
+.hero-sec{
+    background-image: url("pics/hero.jpg");
+    width: 100%;
+    height: 16rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content{
+    background-color: rgb(165, 168, 172);
+    padding: 1rem;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap ;
+    gap: 2rem;
+}
+
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 17rem;
+    height: 25rem;
+    padding: 1rem;
+    font-size: 0.8rem;
+    background-color: white;
+}
+
+.cards a{
+    color: #2162a1;
+}
+
+.cards h1{
+    font-size: 1.4rem;
+}
+
+.cards img{
+    height: 15rem;
+    width: 15rem;
+    margin-top: 1rem;
+}

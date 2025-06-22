@@ -1,0 +1,124 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background : url("images/back2.webp");
+    background-size: cover; 
+    backdrop-filter: blur(10px);
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.main_container{
+    position: absolute;
+    top: 8rem;
+    left : 28rem;
+    backdrop-filter: blur(30px);
+    background-color: rgba(225, 225, 225, 0.221);
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.6rem;
+    border: 1.3px solid rgba(225, 225, 225, 0.241);
+}
+.search_box{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 90%;
+    height: 2.5rem;
+    margin: 1rem;
+    border: 1.3px solid rgba(225, 225, 225, 0.241);
+    border-radius: 0.6rem;
+}
+.search_box input{
+    width: 80%;
+    height : 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+.search_box input::placeholder{
+    color: white;
+}
+.loc_icon{
+    margin:  0.5rem;
+    color: rgb(231, 230, 230);
+    font-size: 1.2rem;
+}
+.search_icon{
+    margin-right:  0.6rem;
+    color: rgb(225, 224, 224);
+    font-size: 1.2rem;
+}
+.weather_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    height: 60%;
+}
+.weather_box img{
+    width: 55%;
+}
+.weather_box .temp{
+    font-size: 3.8rem;
+    font-weight: 900;
+    margin-top: 1.5rem;
+}
+.humidity-des, .wind-des, .weather_box .temp{
+    display: flex;
+}
+.weather-details{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom : 2rem;
+}
+.hum-icon, .wind-icon{
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+.humidity p, .wind-speed p{
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+}
+.city{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.temprature{
+    display: flex;
+    align-items: center;
+}
+.temprature span{
+    font-size: 1.5rem;
+}
+
+.weather_box, .weather-details{
+    display: none;
+}
+
+.not_found{
+    display :none;
+    flex-direction: column;
+    align-items: center;
+}
+.not_found img{
+    width: 20rem;
+}
+.not_found p{
+    color: rgb(254, 122, 122);
+    margin: 1rem;
+}

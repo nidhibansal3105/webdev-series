@@ -19,20 +19,17 @@ const winConditions = [[0,1,2], [3,4,5], [6,7,8], [0,3,6],
                        [1,4,7], [2,5,8], [0,4,8], [2,4,6]]
     
 cells.forEach((cell, index) => {
-    cell.addEventListener('click', () => tapCell(cell, index, player))
+    cell.addEventListener('click', () => tapCell(cell, index))
 }) 
 
-function tapCell(cell, index, khiladi){
-    if(cell.textContent == '' && (!isPauseGame || khiladi == cPlayer)){
+function tapCell(cell, index){
+    if(cell.textContent == '' && !isPauseGame){
         isGameStart = true;
-        updateCell(cell, index, khiladi);
-        if(!checkWinner(khiladi)){
+        updateCell(cell, index, player);
+        if(!checkWinner(player)){
             if(!checkDraw()){
-                if(khiladi == player)
-                {
-                    setTimeout(computerMove, 900);
-                    isPauseGame = false;
-                }
+                isPauseGame = true;
+                setTimeout(computerMove, 1000);
             }
         }
     }
@@ -45,12 +42,16 @@ function updateCell(cell,index, khiladi){
 }
 
 function computerMove(){
-    isPauseGame = true;
     let random;
     while(inputCells[random] != ''){
         random = Math.round(Math.random()*9);
     }
-    tapCell(cells[random], random, cPlayer);
+    updateCell(cells[random], random, cPlayer);
+    if(!checkWinner(cPlayer)){
+        if(!checkDraw()){
+            isPauseGame = false;
+        }
+    }
 }
 
 function checkWinner(khiladi){

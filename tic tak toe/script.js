@@ -23,7 +23,7 @@ cells.forEach((cell, index) => {
 }) 
 
 function tapCell(cell, index, khiladi){
-    if(cell.textContent == '' && !isPauseGame){
+    if(cell.textContent == '' && (!isPauseGame || khiladi == cPlayer)){
         isGameStart = true;
         updateCell(cell, index, khiladi);
         if(!checkWinner(khiladi)){
@@ -31,6 +31,7 @@ function tapCell(cell, index, khiladi){
                 if(khiladi == player)
                 {
                     setTimeout(computerMove, 900);
+                    isPauseGame = false;
                 }
             }
         }
@@ -44,6 +45,7 @@ function updateCell(cell,index, khiladi){
 }
 
 function computerMove(){
+    isPauseGame = true;
     let random;
     while(inputCells[random] != ''){
         random = Math.round(Math.random()*9);

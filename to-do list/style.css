@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(135deg, blue, red);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 3rem;
+    border-radius: 0.6rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    color: rgba(12, 12, 145, 0.689);
+    margin-bottom: 0.5rem;
+}
+
+.heading img{
+    width: 2rem;
+    margin: 0.5rem;
+}
+
+.adder{
+    display: flex;
+    margin-bottom : 2rem;
+
+}
+
+.adder input{
+    height: 2.8rem;
+    width: 75%;
+    border: none;
+    background-color:rgba(180, 183, 185, 0.405); 
+    padding-left: 1.5rem;
+    border-radius: 1.5rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    outline: none;
+}
+
+.adder button{
+    background-color: rgb(247, 113, 36);
+    border: none;
+    border-radius: 1.5rem;
+    width: 10%;
+    position: relative;
+    left: -1rem;
+    color: white;
+    font-weight: 600;
+}
+
+.tasks_list{
+    list-style: none;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.tasks_list li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+}
+.tasks_list li img{
+    width: 1.3rem;
+    margin-right: 0.5rem;
+}
+
+.tasks_list li button{
+    background-color: rgba(128, 128, 128, 0.276);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: none;
+    color: rgb(79, 78, 78);
+}
+ 
+button{
+    cursor: pointer;
+}
+
+@media (max-width: 630px){
+    .adder button{
+        border-radius: 50%;
+        width: 3rem;
+    }
+}
